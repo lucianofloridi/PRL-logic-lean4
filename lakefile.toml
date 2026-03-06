@@ -1,0 +1,14 @@
+name = "lean_prl"
+version = "0.1.0"
+defaultTargets = ["lean_prl"]
+
+[[lean_lib]]
+name = "CPRL"
+
+[[lean_exe]]
+name = "lean_prl"
+root = "Main"
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
